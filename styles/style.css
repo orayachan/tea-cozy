@@ -1,0 +1,161 @@
+/* --- RESET --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid pink; */
+}
+
+body {
+    font-family: Helvetica, san-serifs;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* --- Navigation --- */
+nav {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__box {
+    align-content: center;
+}
+
+.logo__box>img {
+    height: 50px;
+    padding: 0 10px;
+}
+
+.menu-bar {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-bar>div {
+    padding: 1rem;
+}
+
+/* --- Header --- */
+header {
+    width: 1200px;
+    height: 700px;
+    background-image: url(../images/img-mission-background.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.header__title {
+    background-color: black;
+    width: 100%;
+    padding: 0.5rem 0;
+}
+
+/* --- TEA Items --- */
+main {
+    display: flexbox;
+}
+
+.items__container {
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 4rem;
+}
+
+.items__container>h2 {
+    padding: 2rem 0 1rem;
+}
+
+.items__container>h4 {
+    padding: 1rem 0;
+}
+
+.image__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+figure {
+    width: 300px;
+}
+
+figcaption {
+    padding: 10px 0;
+}
+
+/* --- Locations --- */
+.locations__container {
+    width: 1200px;
+    height: 550px;
+    background-image: url(../images/img-locations-background.webp);
+    /* background-position: center; */
+    margin: auto;
+}
+
+.locations__container>h3 {
+    opacity: 1;
+    padding-top: 4rem;
+    padding-bottom: 15px;
+}
+
+.address__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.address-box {
+    width: 300px;
+    height: 290px;
+    background-color: black;
+    padding: 0 20px;
+    align-content: center;
+}
+
+.address-box>h3 {
+    padding: 1rem;
+}
+
+.address-box>p {
+    line-height: 2.5;
+}
+
+/* --- Contact --- */
+.contact__container {
+    margin-top: 1rem;
+}
+
+.contact__container>h5 {
+    margin-top: 2rem;
+}
+
+/* --- FOOTER --- */
+footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer>h5 {
+    margin-top: 4rem;
+    margin-left: 20px;
+}
+
+footer>h5>span {
+    font-size: 0.8rem;
+    font-weight: 200;
+}
